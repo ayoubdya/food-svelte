@@ -19,7 +19,7 @@
   export let disabled: boolean = false;
 </script>
 
-<div class="flex justify-center border-b-[1px] mb-2">
+<div class="flex border-b-[1px] mb-2 justify-center">
   <nav
     id="header"
     class="flex gap-4 justify-center items-center max-w-7xl w-full h-20 p-3"
