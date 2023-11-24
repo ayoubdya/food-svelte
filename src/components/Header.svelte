@@ -35,7 +35,7 @@
         <span>Meals</span>
       </div>
     </div>
-    <div class="flex flex-1 gap-4 items-center justify-center">
+    <div class="flex flex-1 gap-4 h-full items-center justify-center">
       <a
         href="/"
         use:link
@@ -52,7 +52,7 @@
       >
       <div
         class={twMerge(
-          "group flex items-center h-full w-full max-w-sm focus:bg-white rounded-2xl",
+          "flex items-center h-full w-full max-w-sm focus:bg-white rounded-2xl",
           `${disabled ? "bg-gray-300" : "bg-gray-100"}`
         )}
       >
@@ -82,7 +82,7 @@
           placeholder={!disabled ? `Search by ${searchType}` : ""}
           type="text"
           bind:value={rtSearch}
-          class="outline-none h-full w-full bg-inherit rounded-2xl rounded-s-none group-focus:bg-white focus:bg-white focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 px-2"
+          class="outline-none h-full w-full bg-inherit rounded-2xl rounded-s-none focus:bg-white focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 px-2"
         />
       </div>
     </div>
